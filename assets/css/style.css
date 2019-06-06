@@ -1,0 +1,33 @@
+body{
+    background-image: url("../images/prism.png")
+}
+
+.nav-left{
+    float: left;
+    padding: 10px;
+    position: relative;
+    left: 230px;
+}
+
+.active{
+    border-bottom: 2px solid #FE0267;
+}
+
+#navbar{
+    background-color: #e3e1df;
+    min-height: 40px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+#me{
+    background-color: #FE0267;
+    padding: 20px;
+    height: auto;
+    width: auto;
+}
+
+#border{
+    border-left: 1px solid black;
+    border-right:  1px solid black;
+}
