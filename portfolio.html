@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html class="h-100">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -33,10 +33,10 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -46,6 +46,9 @@
         </div>
     </nav>
 
+    <main role="main" class="flex-shrink-0">
+
+    </main>
     <div class="container" id="section">
         <div class="row">
             <div class="col-md-4">
@@ -71,8 +74,12 @@
         </div>
     </div>
 
-    <footer>
-        Copyright &copy;
+    </main>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span>Copyright &copy;</span>
+        </div>
     </footer>
 
     <script src="" async defer></script>
